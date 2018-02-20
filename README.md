@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Reporduction CSS de la landing page de https://checkr.com/
 
-Things you may want to cover:
+Le Heroku de l'application : https://inlandroger.herokuapp.com/
 
-* Ruby version
+Consultez la page d'accueil de checkr
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
