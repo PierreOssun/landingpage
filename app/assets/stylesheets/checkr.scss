@@ -1,0 +1,128 @@
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+li {
+  list-style: none;
+  list-style-type: none;
+}
+
+nav li {
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+/*   div TOPMENU  I Am an Applicant   API & Docs  About Us  Careers */
+.top-menu {
+  margin-right: 40px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* logo + dropdowns + LOGIN&GET STARTED */
+.container-central {
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* logo + dropdowns*/
+.central-nav {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-arround;
+}
+
+/* lbalise nav I Am an Applicant   API & Docs  About Us  Careers */
+.top-nav {
+
+}
+
+/* liste a puces ul I Am an Applicant   API & Docs  About Us  Careers */
+.menu-top-menu {
+  display: flex;
+  padding-left: 10px;
+}
+
+.menu-top-menu a:hover {
+color: #A9C2DE;
+}
+
+/* liste a puces ul des dropdowns */
+.central-bouton {
+  display: flex;
+
+}
+
+/* liste a puce ul LOGIM & Get STARTED */
+.right-menu {
+  display: flex;
+
+}
+
+.logo a {
+  margin-right: 40px;
+  font-size: 25px;
+}
+
+/* dropdown */
+.dropdown-menu-psir {
+  position: relative;
+  display: inline-block;
+}
+
+/* dropbtn */
+.dropdown-central-bouton {
+  background-color: #FFFFFF;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+}
+
+/* dropdown content */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  text-align: left;
+  z-index: 1;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 10px 10px;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+color:  #9CB4CD;
+}
+
+.dropdown-menu-psir:hover .dropdown-menu {
+   display: block;
+}
+
+.dropdown-menu-psir:hover .dropdown-central-bouton {
+  background-color: #6092C7;
+  color:  #6092C7;
+}
+
+.dropdown-central-bouton:hover {
+  color: #96AFCB;
+}
